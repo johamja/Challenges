@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    padding:0;
+  }
+  
+  button{
+    width:115px;
+    height:65px;
+    background-image:url(https://res.cloudinary.com/dpwnji5mr/image/upload/v1631373417/tutoriales/spritesheet_htdsp8.png);
+    cursor:pointer;
+    background-repeat:no-repeat;
+  }
+  button:hover{
+    background-position-x:-110px;
+  }
+  #myCanvas{
+    border:1px solid black;
+  }
+  #moneda{
+  /*   background-image:url(https://res.cloudinary.com/dpwnji5mr/image/upload/v1631373901/tutoriales/moneda_sta5rn.jpg);
+    width:110px;
+    height:110px;
+    background-position-x:-120px; */
+  }
+  .hide{
+    display:none;
+  }
+  .show{
+    display:block;
+  }
+  .sprite{
+    display:inline-block;
+    background-image:url(https://res.cloudinary.com/dpwnji5mr/image/upload/v1631375338/tutoriales/amazon-sprite_yct5id.png);
+  }
+  .boton{
+    cursor:pointer;
+  }
+  .flecha_izq{
+    width:20px;
+    height:40px;
+    background-position:-90px -80px;
+  }
+  .flecha_der{
+    width:20px;
+    height:40px;
+    background-position:-110px -80px;
+  }
+  
+  .boton:hover{
+    transform:scale(1.2);
+  }
+  
+  p{
+    width:400px;
+    height:200px;
+    overflow-y:scroll;
+    border:1px solid grey;
+  }
+  
+  .fx{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(255,0,0,.3);
+    z-index:9;
+  }

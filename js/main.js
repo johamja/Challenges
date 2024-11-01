@@ -8,6 +8,7 @@ window.onload = ()=>{
   let y = parseInt(screen.height/64);
   enlace.addEventListener("click",(event)=>{
     contenedor.classList.remove("hide");
+    contenedor.innerHTML = "";
     intervalo = setInterval(crearCorazones,x*y);
   });
 }
